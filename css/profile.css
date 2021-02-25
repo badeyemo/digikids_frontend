@@ -1,0 +1,74 @@
+@font-face{ 
+	font-family: 'roboto';
+	src:url('fonts/roboto-light-webfont.woff') format('woff'),
+        url('fonts/roboto-light-webfont.woff2') format('woff'),
+	    url('fonts/Roboto-Light.ttf') format('truetype')
+}
+body{
+    font-family: 'roboto', Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.header{
+    text-align: center;
+    position: relative;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 10px;
+}
+.logo_writeup{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 25px;
+    display: inline-block;
+    position: absolute;
+    left: 20px;
+}
+.top_writeup{
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    color: #7579e7;
+
+}
+.content{
+    width: 80%;
+    margin: 40px auto;
+    text-align: center;
+}
+.content_holder{
+    margin-top: 30px;
+}
+.image_holder{
+    width: 200px;
+    height: 200px;
+    background: #e5e5e5;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+}
+.form_holder{
+    width: 350px;
+    height: 400px;
+    display: inline-block;
+    vertical-align: top;
+    padding:0 30px 30px 30px;
+    box-sizing: border-box;
+}
+.input{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px;
+    margin:10px 0;
+    border-radius: 8px;
+    background: rgba(203, 204, 206,0.5);
+    border: 1px solid rgba(203, 204, 206,0.5);
+    
+}
+.form_button2{
+    width: 100%;
+    border: none;
+    padding: 12px;
+    color:#fff;
+    background: #7579e7;
+    border-radius: 8px;
+}

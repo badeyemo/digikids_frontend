@@ -1,0 +1,59 @@
+@font-face{ 
+	font-family: 'roboto';
+	src:url('fonts/roboto-light-webfont.woff') format('woff'),
+        url('fonts/roboto-light-webfont.woff2') format('woff'),
+	    url('fonts/Roboto-Light.ttf') format('truetype')
+}
+body{
+    font-family: 'roboto', Arial, Helvetica, sans-serif;
+    background: #e5e5e5;
+    box-sizing: border-box;
+}
+.form_holder{
+    width: 350px;
+    height: 450px;
+    margin: 5% auto;
+    text-align: center;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-sizing: border-box;
+
+}
+.form_button1{
+    padding: 12px;
+    background: white;
+    border: 1.5px solid #17181c;
+    width: 100%;
+    border-radius: 7px;
+
+}
+.icon{
+    color: red;
+    margin-right: 10px;
+}
+.input{
+    display: block;
+    width: 100%;
+    border-radius: 7px;
+    padding: 15px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    background: rgba(203, 204, 206,0.5);
+    border: 1px solid rgba(203, 204, 206,0.5);
+}
+.form_button2{
+    color: #fff;
+    width: 100%;
+    background: #7579e7;
+    border-radius: 7px;
+    border: none;
+    padding: 15px;
+    outline: 0;
+
+}
+.form_holder a{
+    text-decoration: none;
+    color: #7579e7;
+
+}
