@@ -8,4 +8,142 @@ body{
     font-family: 'roboto', Arial, Helvetica, sans-serif;
     background: #e5e5e5;
     box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    position: relative;
+    padding: 10px;
+    height: 35px;
+    background:#7579e7;
+    text-align: center;
+}
+.logo_writeup{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 25px;
+    display: inline-block;
+    position: absolute;
+    left: 20px;
+    color: #fff;
+}
+.header_center button{
+    color: #fff;
+    border:none;
+    background: none;
+    font-size: 18px;
+    padding: 7px;
+}
+.header_right{
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    display: inline-block;
+}
+.header_right button{
+    color: #fff;
+    border:none;
+    background: none;
+    font-size: 18px;
+    padding: 7px;
+
+}
+.icon{
+    margin-right: 8px;
+}
+.content{
+    width: 85%;
+    background: #fff;
+    height: 1500px;
+    margin: 0 auto;
+    position: relative;
+    background:rgba(229, 229, 229,0.5);
+}
+.content_left{
+    display: inline-block;
+    vertical-align: top;
+    height: 100%;
+    width: 22%;
+    background: #fff;
+    float: left;
+    padding-left: 15px;
+}
+.content_center{
+    display: inline-block;
+    vertical-align: top;
+    height: 100%;
+    width: 48%;
+    background: rgba(229, 229, 229,0.5);
+    padding: 10px;
+    float: left;
+
+}
+.content_center button{
+    background: #fff;
+    border: none;
+    padding: 10px 25px;
+     border-radius: 30px;
+}
+.content_right{
+    display: inline-block;
+    vertical-align: top;
+    height: 100%;
+    width: 25%;
+    background: rgba(229, 229, 229,0.5);
+    float: left;
+    border-radius: 10px;
+
+}
+.clear{
+    clear: both;
+}
+.right_child_card{
+    border-bottom: 1px solid #e5e5e5;
+    padding: 10px;
+}
+.right_child_holder{
+    background: #fff;
+    border-radius: 15px;
+    width: 200px;
+}
+.view{
+    text-align: center;
+    color: #7579e7;
+    padding: 10px;
+}
+.inline-block{
+    display: inline-block;
+    vertical-align: middle;
+}
+.base_button{
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 20px;
+    background: rgb(76, 250, 60);
+}
+.blue{
+    background: #7579e7;
+}
+
+.subjects{
+    padding: 10px;
+}
+.active_sub{
+    background: rgba(229, 229, 229,0.5);
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px; 
+}
+.span_circle{
+    margin-right: 10px;
+    margin-left: 10px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    background: chocolate;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
+    line-height: 1.5;
 }
